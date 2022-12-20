@@ -1,0 +1,24 @@
+@import 'allvars';
+
+
+.holdsoneyou_nav{
+
+
+.navulstyles{
+border-bottom: 2px solid red;
+ul{
+display: flex;
+li{
+	list-style-type: none;
+a{
+font-family: $firafont;
+color: red;
+padding: 0.5rem 1rem;
+text-decoration: none;
+}
+}
+}
+
+}
+
+}

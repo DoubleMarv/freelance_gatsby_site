@@ -12,7 +12,7 @@ const IndexPage = () => {
     <>
     <Layout>
     <main style={pageStyles}>
-<div class="">Home</div>
+<div class=""><h1>Home</h1></div>
     </main>
      </Layout>
     </>
