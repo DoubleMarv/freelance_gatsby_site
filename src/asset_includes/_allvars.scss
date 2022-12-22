@@ -1,6 +1,14 @@
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/fira-sans.min.css");
 @import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/metropolis.min.css");
 
+
+$pink: #ffadb9;
+$darkgreen: #02394a;
+$darkblue: #043565;
+$purple: #5158bb;
+$lightblue: #afd2e9;
+$realwhite: #fff;
+
 $firafont: 'Fira Sans', sans-serif;
 $metropolis: 'Metropolis', sans-serif;
 
@@ -82,32 +90,56 @@ $metropolis: 'Metropolis', sans-serif;
 }
 
 body{
-	color: #444;
-
+	color: #777;
+	margin: 0;
 
  @include r(240)  {
- background: #e5e5e5;
+ .containo{
+ 	width: 85vw;
+ 	margin: 0 auto;
+ }
   }
  @include r(320)  {
- background: #fefefe;
+  .containo{
+ 	width: 85vw;
+ 	margin: 0 auto;
+ }
   }
  @include r(480)  {
- background: #e5e5e5;
+  .containo{
+ 	width: 85vw;
+ 	margin: 0 auto;
+ }
   }
  @include r(768)  {
- background: #fefefe;
+  .containo{
+ 	width: 480px;
+ 	margin: 0 auto;
+ }
   }
  @include r(1024) {
- background: #e5e5e5;
+  .containo{
+ 	width: 991px;
+ 	margin: 0 auto;
+ }
   }
  @include r(1140) {
- background: #fefefe;
+  .containo{
+ 	width: 1024px;
+ 	margin: 0 auto;
+ }
   }
  @include r(1280) {
- background: #e5e5e5;
+  .containo{
+ 	width: 1140px;
+ 	margin: 0 auto;
+ }
   }
  @include r(1500) {
- background: #fefefe;
+  .containo{
+ 	width: 1280px;
+ 	margin: 0 auto;
+ }
   }
 
 }

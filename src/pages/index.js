@@ -1,5 +1,6 @@
 import * as React from "react"
 import Layout from "../components/layout.js"
+import Homepagebanner from "../components/homepagebanner.js"
 
 const pageStyles = {
   color: "#232129",
@@ -11,9 +12,11 @@ const IndexPage = () => {
   return (
     <>
     <Layout>
+    <Homepagebanner />
     <main style={pageStyles}>
 <div class=""><h1>Home</h1></div>
     </main>
+        <Homepagebanner />
      </Layout>
     </>
   )
@@ -21,4 +24,4 @@ const IndexPage = () => {
 
 export default IndexPage
 
-export const Head = () => <title>Home Page</title>
+export const Head = () => <title>Freelance Developer Cork</title>

@@ -2,8 +2,14 @@
 
 
 .holdsoneyou_nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	background: $realwhite;
+	width: 100%;
+	z-index: 9;
 .navulstyles{
-border-bottom: 2px solid red;
+border-bottom: 2px solid $purple;
 ul{
 display: flex;
 li{
