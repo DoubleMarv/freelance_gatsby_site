@@ -1,0 +1,23 @@
+@import 'allvars';
+
+
+
+.griditem{
+background-color: #33bec3;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+display: flex;
+align-items: center;
+width:100%;
+}
+
+.griditem.portfoliogrid--3{
+	width: calc(33% - 0.5rem);
+	height: 30rem;
+}
+
+.griditem.portfoliogrid--4{
+	width: calc(25% - 0.5rem);
+	height: 25rem;
+}
