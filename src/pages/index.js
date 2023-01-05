@@ -23,10 +23,12 @@ images={[image1, image2, image3, image4]}
     showitems="4"/>
         <Portfoliogrid 
 images={[image1, image2]}
-    showitems="2" title="lorem Ipsum Blombo Blambo."/>
+    showitems="2" title="lorem Ipsum Blombo Blambo."
+    content="Lorem ipsum dolor sit amet, tantas dissentias consequuntur quo id. Munere iuvaret fabellas eos an, usu facete forensibus at, ne oratio tacimates intellegat duo. Diam dictas democritum per in, fuisset theophrastus voluptatibus pri an. Mel illum nullam vocent eu. Eu his civibus definiebas, eruditi cotidieque ea eos. At ornatus indoctum principes vis, cu tollit erroribus elaboraret duo.
+    ">/></Portfoliogrid>
 
         <main style={pageStyles}>
-<div class=""><h1>Home</h1></div>
+<div class="containo"><h1>Home</h1></div>
     </main>
      </Layout>
     </>

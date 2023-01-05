@@ -1,0 +1,28 @@
+@import 'allvars';
+
+
+
+.main-footer{
+    background: $purple;
+    display: flex;
+    align-items: center;
+    ul{
+        margin:0;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        padding: 0;
+        li{
+            list-style-type: none;
+                a{
+                    color: $realwhite;
+                    text-decoration: none;
+                }
+        }
+    }
+    h2{
+        font-size: calc(1.5rem + 0.5vw);
+    }
+    p{
+        font-size: calc(1rem + 0.5vw);
+    }
+}

@@ -8,10 +8,8 @@ const Layout = ({children}) => {
   return (
 <div className="all-layout">
 <Navbar />
-			<div className="">
-			{children}
-			</div>
-
+{children}
+<Footer />
 </div>
   )
 }

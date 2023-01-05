@@ -12,8 +12,8 @@ const Griditem = (props) => {
   const itemindex = props.indexo;
       const ref = useRef(null);
   const isInView = useInView(ref);
-  const whynum = (itemindex*100);
-  const delayo = (itemindex*0.5);
+ const whynum = ((itemindex+1)*1.2);
+  const delayo = (whynum*0.5);
   const disto = (100+(itemindex*17));
   let topdistance = (isInView ? 0 : disto );
   return (
@@ -22,7 +22,7 @@ const Griditem = (props) => {
 style={{backgroundImage:'url('+ backimage +')'}}
 initial="hidden"  
 animate={{ y: topdistance }}
-transition={{ ease: "easeOut", duration: 0.35 }}
+transition={{ ease: "easeOut", duration: delayo }}
 className="griditem"
 ></motion.div>
     </>

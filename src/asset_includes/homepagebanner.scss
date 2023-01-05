@@ -9,6 +9,7 @@
 	height: 95vh;
 display: flex;
 align-items: center;
+overflow: hidden;
 
 .textholdo{
 
@@ -24,23 +25,17 @@ align-items: center;
 	margin: 0;
 	padding: 3px;
 	border: 3px solid $purple;
-}
 
-
-.headshot:after{
-	content: '';
-	border-left: 3px solid $purple;
-	height: 0rem;
+	.innerline{
+		border-left: 3px solid $purple;
 	left: calc(2.5rem - 4.5px);
 	top: calc(5rem - 3px);
 		transition: all 0.2s ease;
 	position: absolute;
+	}
+
 }
-.headshot.longtail:after{
-	content: '';
-	transition: all 0.2s ease;
-	height: 9rem !important;
-}
+
 
 
 p,h1{
@@ -76,4 +71,8 @@ p,h1{
 	}
 }
 
+}
+
+.homepagebanner.borderbottom{
+	border-bottom: 2px solid #33bec3;
 }

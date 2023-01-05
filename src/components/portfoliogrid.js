@@ -10,6 +10,7 @@ const Portfoliogrid = (props) => {
   const showitemsnumber = props.showitems;
   const imagios = props.images;
 const titler = props.title;
+const contenttext = props.content;
   return (
     <>
       <section className="portfoliogrid">
@@ -20,7 +21,7 @@ const titler = props.title;
             return <Griditem key={image} backgroundImage={image} indexo={index}>{index}</Griditem>;
           })}
 
-      <Textitem titletext={titler} />
+      <Textitem titletext={titler} contento={contenttext}/>
       </div>
       </div>
       </section>
