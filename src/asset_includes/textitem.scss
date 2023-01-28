@@ -9,8 +9,17 @@
     padding: 1.5rem;
     h2{
         font-size: calc(1.5rem + 0.5vw);
+        span{
+            color: $pink;
+        }
     }
     p{
         font-size: calc(.6rem + 0.5vw);
+        color: $textgrey;
+        span.smalltext{
+            display: block;
+            margin-top: 2rem;
+            font-size: .85rem;
+        }
     }
 }

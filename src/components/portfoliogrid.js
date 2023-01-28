@@ -6,22 +6,33 @@ import Griditem from "./griditem.js"
 import Textitem from "./textitem.js"
 
 
+
 const Portfoliogrid = (props) => {
   const showitemsnumber = props.showitems;
+  const sidetitle = props.sidetitle;
   const imagios = props.images;
 const titler = props.title;
 const contenttext = props.content;
+let text;
+if(titler || contenttext){
+  text = <Textitem titletext={titler} contento={contenttext}/>
+}
+
+let sideo;
+if(sidetitle){
+  sideo = <div className='sideo'><span>{sidetitle}</span></div>
+}
   return (
     <>
       <section className="portfoliogrid">
+        {sideo}
       <div className="containo">
       <div className={'portfolio_holder portfoliogrid--' + showitemsnumber}>
-
           {imagios.map((image, index) => {
             return <Griditem key={image} backgroundImage={image} indexo={index}>{index}</Griditem>;
           })}
 
-      <Textitem titletext={titler} contento={contenttext}/>
+{text}
       </div>
       </div>
       </section>

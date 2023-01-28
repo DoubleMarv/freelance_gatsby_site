@@ -38,7 +38,7 @@ overflow: hidden;
 
 
 
-p,h1{
+p,h1,h2{
 	margin: 0.5rem 0;
 	margin-left: 4rem;
 }
@@ -61,14 +61,24 @@ p,h1{
 			font-weight: 300;
 			font-family: $firafont;
 					 @media screen and (min-width:768px) {
-			 	font-size: 1.75rem;
               font-size: calc(1.75rem + .2vw);  
              }
              @media screen and (max-width:767px) {
-             	font-size: 1.5rem;
                 font-size: calc(1.5rem + .2vw);
              }	
 	}
+	h2{
+		color: $darkblue;
+		font-weight: 300;
+		letter-spacing: 1px;
+		font-family: $firafont;
+				 @media screen and (min-width:768px) {
+		  font-size: calc(1.3rem + .2vw);  
+		 }
+		 @media screen and (max-width:767px) {
+			font-size: calc(1.2rem + .2vw);
+		 }	
+}
 }
 
 }

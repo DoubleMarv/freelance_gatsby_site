@@ -13,8 +13,11 @@ const Textitem = (props) => {
   return (
     <>
 <div className="centvert-textholder">
-<h2>{thetext}</h2>
-<p>{thecont}</p>
+<h2 dangerouslySetInnerHTML={ { __html: thetext}}>
+</h2>
+
+
+<p dangerouslySetInnerHTML={ { __html: thecont}}></p>
 </div>
     </>
   )

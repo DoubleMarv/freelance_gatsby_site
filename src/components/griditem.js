@@ -13,7 +13,7 @@ const Griditem = (props) => {
       const ref = useRef(null);
   const isInView = useInView(ref);
  const whynum = ((itemindex+1)*1.2);
-  const delayo = (whynum*0.5);
+  const delayo = (whynum*0.3);
   const disto = (100+(itemindex*17));
   let topdistance = (isInView ? 0 : disto );
   return (
