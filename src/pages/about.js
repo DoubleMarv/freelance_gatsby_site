@@ -12,7 +12,7 @@ const AboutPage = () => {
   	<>
     <Layout>
     <main style={pageStyles}>
-<div class="">About Page</div>
+<div className="">Comeing Soon</div>
     </main>
      </Layout>
     </>
