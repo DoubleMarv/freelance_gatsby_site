@@ -1,5 +1,5 @@
 <h1 align="center">
-  Gatsby OneYou
+  Freelance Gatsby Site
 </h1>
 
 
