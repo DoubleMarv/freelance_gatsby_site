@@ -3,8 +3,8 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `OneYou`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Freelance Web Design Cork`,
+    siteUrl: `https://freelance-webdesign-cork.ie/`
   },
   plugins: ["gatsby-plugin-sass", "gatsby-plugin-image", "gatsby-plugin-sitemap", "gatsby-plugin-sharp", "gatsby-transformer-sharp", {
     resolve: 'gatsby-source-filesystem',

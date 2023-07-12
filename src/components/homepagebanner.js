@@ -38,10 +38,10 @@ onAnimationComplete={addborderbottom}>
   transition={{ type: "spring", stiffness: 50, delay: 0.3 }}>Barry English</motion.p>
       	<motion.h1 initial={{ x: -30, opacity: 0 }}
   animate={{ x: 0, opacity: 1 }}
-  transition={{ type: "spring", stiffness: 60, delay: 0.4 }}>Cork-based Freelance developer/designer</motion.h1>
+  transition={{ type: "spring", stiffness: 60, delay: 0.4 }}>Freelance developer/designer</motion.h1>
         	<motion.h2 initial={{ y: 80, opacity: 0 }}
   animate={{ y: 0, opacity: 1 }}
-  transition={{ type: "spring", stiffness: 60, delay: 0.4 }}>Website design & development, maintenance & optimisation</motion.h2>
+  transition={{ type: "spring", stiffness: 60, delay: 0.4 }}>Website design & development, maintenance & optimisation | Based in Cork, Ireland</motion.h2>
       </div>
       </div>
       </motion.section>

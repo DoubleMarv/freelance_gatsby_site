@@ -22,7 +22,8 @@ const Griditem = (props) => {
 style={{backgroundImage:'url('+ backimage +')'}}
 initial="hidden"  
 animate={{ y: topdistance }}
-transition={{ ease: "easeOut", duration: delayo }}
+// transition={{ ease: "easeOut", duration: delayo }}
+  transition={{ type: "spring", stiffness: 60, delay: 0 }}
 className="griditem"
 ></motion.div>
     </>
